@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table,th,td{
+            border:1 solid;
+            padding:2px;
+        }
+        .img_dir{
+            float:right;
+            padding:4px;
+        }
+        a:link {
+            color : white;
+            background-color:transparent;
+            text-decoration:none ;
+
+        }
+        a:visited{
+            color:white;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:active{
+            color : red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<table style = "width:100%">
+    <tr style="background-color: lightseagreen;">
+    <th colspan = "1"><img src="image/fb.png"height="80px"width = "80px"></th>
+
+    <th style = "color:white;text-align:center"colspan = "3">MY  WEBSITE</th>
+    <th style = "text-align: right;color:white"colspan="2"><lable>Wednesday, 1 May 2024 </lable><br><input type = "text"placeholder="Search here"></th>
+    </tr>
+    <tr style="background-color:purple;color:white;">
+        <td style="text-align:center;width:10%"><a href = "index.html">Home</a></td>
+         <td style="text-align:center;width:10%"><a href = "registration_form.html">Form</a></td>
+         <td style="text-align:center;width:10%"><a href = "F:\HTML\t_able.html">Table</a></td>
+         <td style="text-align:center;width:10%"><a href = "F:\HTML\news.html">News Portal</a></td>
+         <td style="text-align:center;width:10%"><a href = "F:\HTML\image.html">Image</a></td>
+         <td style="text-align:center;width:10%"><a href = "F:\HTML\Form.html">Contact</a></td>
+     </tr>
+</table>
+<h3 style = "text-align:center;">Registration Form</h3>
+<form action="/action_page.php"style="text-align:center;">
+    
+    <label>First Name</label>
+    <input type = "text" placeholder = "firstname"><br><br>
+    <label>Last Name</label>
+    <input type = "text" placeholder = "lastname"><br><br>
+    <label>Email</label>
+    <input type = "text" placeholder = "email"><br><br>
+    <label>Password</label>
+    <input type = "text" placeholder = "password"><br><br>
+    <label>Gender</label>
+  <input type = "radio"id="male"name = "gender"value = "Male">
+    <label for="male">Male</label><br>
+    <input type = "radio"id="female"name="gender"value = "Female">
+    <label for = "female">Female</label><br><br>
+    <label>Division</label>
+   <select>
+    <option value = "Dhaka">Dhaka</option>
+    <option value = "Barishal">Barishal</option>
+    <option value = "Khulna">Khulna</option>
+    <option value = "Rajshahi">Rajshahi</option>
+    <option value = "Jessore">Jessore</option>
+    <option value = "Komilla">Komilla</option>
+    <option value = "Rangpur">Rangpur</option>
+    <option value = "Chattogram">Chattogram</option>
+   </select><br><br>
+   <input type = "submit" value = "submit">
+</form>
+</body>
+</html>
